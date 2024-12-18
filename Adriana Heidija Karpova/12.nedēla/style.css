@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+}
+nav {
+    background-color: rgb(14, 33, 33);
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+.main-container {
+    display: flex;
+}
+.side-content {
+    width: 30%;
+}
+.photo-container {
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat (auto-fit, minmax(150px, 1fr));
+    max-width: 1800px;
+    padding: 10px;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+}
