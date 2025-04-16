@@ -18,6 +18,7 @@ else ((age < 18 ) && (pilsoniba == false));
 }*/
 
 
+
 /* let atzime = parseInt (prompt ("ievadi atzimi (0-100): "));
 if ((atzime >= 90 ));
 {
@@ -37,4 +38,4 @@ if ((atzime >=0));
 } */
 
 
-    
+
